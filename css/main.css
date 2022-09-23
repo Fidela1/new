@@ -106,26 +106,30 @@ section.hero .down-arrow path {
   .material-symbols-outline {
     display: none;
   }
-}
-body {
-  margin: 1.5em 5em;
-  font-family: "poppins", sans-serif;
-}
-
-nav {
-  transform: translateY(0);
-  position: unset;
-  display: block;
-  width: auto;
-  height: auto;
-  background-color: none;
-}
-
-.material-symbols-outlined {
-  display: none;
-}
-
-ul {
-  display: flex;
-  margin: 0;
+  nav {
+    transform: translateX(0);
+    position: unset;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
+  }
+  nav ul {
+    display: flex;
+    margin: 0;
+  }
+  nav ul a {
+    color: 0.5em 1.5em;
+    font-size: 0.9rem;
+  }
+  nav ul a:hover {
+    background: none;
+    text-decoration: underline;
+  }
+  .hero-img {
+    left: unset;
+    right: 0;
+    width: 50%;
+    height: 42em;
+  }
 }/*# sourceMappingURL=main.css.map */

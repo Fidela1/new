@@ -107,29 +107,38 @@ section.hero{
 
 
 @media only screen and (main-width:920px){
-.material-symbols-outline{
-    display: none;
-}
-}
+    .material-symbols-outline{
+        display: none;
+    }
+     nav{
+        transform: translateX(0);
+        position: unset;
+        display: block;
+        width: auto;
+        height: auto;
+        background: none;
 
-body{
-    margin: 1.5em 5em;
-    font-family: 'poppins', sans-serif;
-}
+        ul{
+            display: flex;
+            margin: 0;
 
-nav{
-    transform: translateY(0);
-    position: unset;
-    display: block;
-    width: auto;
-    height: auto;
-    background-color: none;
-}
-.material-symbols-outlined{
-    display: none;
-}
+            a{
+                color: .5em 1.5em;
+                font-size: .9rem;
 
-ul{
-   display: flex;
-   margin: 0; 
+                &:hover {
+                    background: none;
+                    text-decoration: underline;
+                    
+                }
+            }
+        }
+     }
+     .hero-img{
+        left: unset;
+        right: 0;
+        width: 50%;
+        height: 42em;
+        
+     }
 }
